@@ -157,6 +157,7 @@ main();
 
 let time = 0;
 function function_time() {
+  if (time == 300) {alert('Вы превысили время прохождения теста')};
   time = time + 1;
   _timeList.textContent = time;
 };
